@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Building under root branch'
+        echo 'Building under feature-1 branch'
       }
     }
     stage('Deploy') {
       steps {
-        echo 'Deploying the main branch.'
+        echo 'Deploying the feature-1 branch.'
       }
     }
   }
